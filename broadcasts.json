@@ -1,0 +1,220 @@
+{
+  "broadcasts": [
+    {
+      "id": "v70465108",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_8d87/germenchrestream_21675683664_464190674/high/index-muted-3EY4MGQJKX.m3u8"
+      }
+    },
+    {
+      "id": "v70670525",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.edgecast.hls.ttvnw.net/v1/AUTH_system/vods_ef3b/germenchrestream_21694198768_464783801/high/index-muted-SV2WMTEQXR.m3u8"
+      }
+    },
+    {
+      "id": "v70515699",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_b810/germenchrestream_21680419184_464342167/chunked/index-muted-EGOMRIRMQL.m3u8"
+      }
+    },
+    {
+      "id": "v70302380",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_f47f/germenchrestream_21661475920_463737471/chunked/index-muted-YGISCMPOUQ.m3u8"
+      }
+    },
+    {
+      "id": "v70498999",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "852x480",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_ccbe/germenchrestream_21678818464_464290964/chunked/index-muted-EULQTMCGE7.m3u8"
+      }
+    },
+    {
+      "id": "v70732707",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_f33b/germenchrestream_21700044064_464971871/high/index-muted-APYG33IT0K.m3u8"
+      }
+    },
+    {
+      "id": "v70461049",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_2028/germenchrestream_21675300800_464178399/high/index-muted-ZQKTPSDS5Z.m3u8"
+      }
+    },
+    {
+      "id": "v70466206",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.cf.hls.ttvnw.net/v1/AUTH_system/vods_570c/germenchrestream_21675789264_464194054/high/index-muted-SERTIL9ZWG.m3u8"
+      }
+    },
+    {
+      "id": "v69323174",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1278x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_bb73/germenchrestream_21576034832_461001217/high/index-muted-J55P08VASD.m3u8"
+      }
+    },
+    {
+      "id": "v70099320",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.cf.hls.ttvnw.net/v1/AUTH_system/vods_fcd5/germenchrestream_21643851824_463173856/chunked/index-muted-9P25NKOYSU.m3u8"
+      }
+    },
+    {
+      "id": "v69136371",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.cf.hls.ttvnw.net/v1/AUTH_system/vods_a3f6/germenchrestream_21557913312_460422813/high/index-muted-MCSDUY99C4.m3u8"
+      }
+    },
+    {
+      "id": "v70528223",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_823f/germenchrestream_21681604336_464379958/chunked/index-muted-10JSCW074Z.m3u8"
+      }
+    },
+    {
+      "id": "v70326866",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_9dcd/germenchrestream_21663641088_463806469/chunked/index-muted-MXKSOOAHS2.m3u8"
+      }
+    },
+    {
+      "id": "v68964712",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_935b/germenchrestream_21542743424_459936557/chunked/index-muted-N9DS0H3SOT.m3u8"
+      }
+    },
+    {
+      "id": "v69338046",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_0ff1/germenchrestream_21577457360_461046857/high/index-muted-GJ90K1OMQU.m3u8"
+      }
+    },
+    {
+      "id": "v68924057",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_bc9b/germenchrestream_21539122256_459821943/chunked/index-muted-FM1VUQYU5S.m3u8"
+      }
+    },
+    {
+      "id": "v70320447",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1096x616",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_a411/germenchrestream_21663074560_463788460/chunked/index-muted-PLBGR7ZRWA.m3u8"
+      }
+    },
+    {
+      "id": "v68954243",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_9f0b/germenchrestream_21541806288_459906982/chunked/index-muted-VJYYM3B6AF.m3u8"
+      }
+    },
+    {
+      "id": "v67536256",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/87dcc708f1_germenchrestream_21416335312_455957530/high/index-muted-OWZ4MK8UQ1.m3u8"
+      }
+    },
+    {
+      "id": "v70347971",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_6721/germenchrestream_21665537168_463866946/high/index-muted-FTHKTFZ2DO.m3u8"
+      }
+    },
+    {
+      "id": "v65337313",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/v1/AUTH_system/vods_3cb7/germenchrestream_21219925664_449649999/high/index-muted-TBGNKQLFRG.m3u8"
+      }
+    },
+    {
+      "id": "v64884289",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.cf.hls.ttvnw.net/v1/AUTH_system/vods_43e6/germenchrestream_21175708608_448233770/high/index-muted-YZ5LT08WMH.m3u8"
+      }
+    },
+    {
+      "id": "v69271147",
+      "status": "pending",
+      "playlist": {
+        "name": "high",
+        "resolution": "1280x720",
+        "source": "http://vod.edgecast.hls.ttvnw.net/v1/AUTH_system/vods_a3c8/germenchrestream_21570816496_460834553/high/index-muted-72WUXBMC5V.m3u8"
+      }
+    },
+    {
+      "id": "v53777547",
+      "status": "pending",
+      "playlist": {
+        "name": "chunked",
+        "resolution": "1280x720",
+        "source": "http://vod.ak.hls.ttvnw.net/50e3901483_germenchrestream_20132294224_415948974/chunked/index-muted-XY08ZIV8H3.m3u8"
+      }
+    }
+  ]
+}

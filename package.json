@@ -1,0 +1,28 @@
+{
+  "name": "twitch-archiver",
+  "version": "1.0.0",
+  "description": "Download saved broadcasts and hightlights from Twitch.tv",
+  "main": "index.js",
+  "private": true,
+  "author": {
+    "name": "mibbio",
+    "email": "contact@mibbiodev.de"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [
+    "twitch",
+    "broadcasts",
+    "download"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "~2.0.0-rc.5",
+    "fluent-ffmpeg": "~2.1.0",
+    "lowdb": "~0.13.0-beta-5"
+  }
+}

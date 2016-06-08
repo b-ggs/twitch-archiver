@@ -1,0 +1,7 @@
+{
+  "channel": "",
+  "parallelDownloads": 1,
+  "ffmpegThreads": 4,
+  "outputPath": "./",
+  "interval": 4
+}
