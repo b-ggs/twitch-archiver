@@ -47,7 +47,7 @@ pending.forEach((video) => {
 console.log('Added %d tasks to queue.', pending.length);
 download_queue.resume();
 
-let mainInterval = setInterval(() => {
+function broadcastLoop() {
   let p_broadcasts = twitch.getBroadcasts(channel, broadcasts.map('id').value());
   p_broadcasts.then((data) => {
     data.forEach((video) => {
@@ -67,7 +67,10 @@ let mainInterval = setInterval(() => {
       }
     });
   });
-}, intervalHours * 3600000);
+};
+
+broadcastLoop();
+let mainInterval = setInterval(broadcastLoop, intervalHours * 3600000);
 
 function cleanExit() {
   console.log('Waiting for cleanup and shutting down...');
