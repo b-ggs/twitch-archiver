@@ -3,5 +3,9 @@
   "parallelDownloads": 1,
   "ffmpegThreads": 4,
   "outputPath": "./",
-  "interval": 4
+  "interval": 4,
+  "server": {
+    "enabled": false,
+    "port": 8080
+  }
 }

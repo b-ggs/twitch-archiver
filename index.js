@@ -26,6 +26,10 @@ const intervalHours = settings.interval || 4;
 const channel = settings.channel;
 const concurrency = settings.parallelDownloads || 1;
 
+if (settings.server.enabled) {
+  require('./web/server').run(settings.server.port);
+}
+
 if (!channel) {
   process.stderr.write('Error: no channel defined in settings.json\n');
   process.exit(-1);

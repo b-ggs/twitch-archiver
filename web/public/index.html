@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch VOD Status</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="panel panel-primary" style="margin:12px;">
+    <div class="panel-heading">Status&emsp;<small>updates every 5 seconds</small></div>
+    <table id="statusTable" class="table table-striped">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Status</th>
+          <th>Progress</th>
+          <th>Length</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+  </div>
+  <script>
+    function getStatusClass(status) {
+      switch(status) {
+        case 'done': return 'success';
+        case 'loading': return 'info';
+      }
+    }
+    function addRow(data) {
+      $('#statusTable tbody').append(
+        '<tr id="' + data.id + '">' +
+        '<td>' + data.id + '</td>' +
+        '<td>' + data.status + '</td>' +
+        '<td>' + data.progress + '</td>' +
+        '<td>' + data.duration + '</td>' +
+        '</tr>'
+      );
+    }
+
+    $(document).ready(function() {
+      setInterval(function() {
+        $.ajax({
+          url: '/status',
+          dataType: 'json',
+          success: function(jsonData) {
+            jsonData.forEach(function(entry) {
+              var id = '#' + entry.id;
+              $row = $(id);
+              $row.removeClass();
+              $row.addClass(getStatusClass(entry.status));
+              if ($row.length != 0) {
+                $fields = $row.children();
+                $fields.eq(1).text(entry.status);
+                $fields.eq(2).text(entry.progress);
+              } else {
+                addRow(entry);
+              }
+            });
+          }
+        });
+      }, 5000);
+    });
+  </script>
+</body>
+
+</html>

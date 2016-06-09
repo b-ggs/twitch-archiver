@@ -35,3 +35,9 @@ see [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg#prerequi
 * __ffmpegThreads__ - threads used per ffmpeg process _(default: 4)_,
 * __outputPath__ - path where videos are saved _(default: './')_,
 * __interval__ - interval in hours between checks for new VODs _(default: 4)_# twitch-archiver for node.js
+
+> server feature is experimental
+
+> enables web frontend for status display
+* __server.enabled__ - enable/disable server feature _(default: false)_
+* __server.port__ - port the server listens at _(default: 8080)_
