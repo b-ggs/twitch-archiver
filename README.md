@@ -34,7 +34,7 @@ see [fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg#prerequi
 * __parallelDownloads__ - number if VODs to download in parallel _(default: 1)_,
 * __ffmpegThreads__ - threads used per ffmpeg process _(default: 4)_,
 * __outputPath__ - path where videos are saved _(default: './')_,
-* __interval__ - interval in hours between checks for new VODs _(default: 4)_# twitch-archiver for node.js
+* __interval__ - interval in hours between checks for new VODs _(default: 4)_
 
 > server feature is experimental
 
